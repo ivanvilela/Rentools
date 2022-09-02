@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    background: #e2c044;    
+    
+}
+nav{    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #393e41;
+    height: 6vh;
+    z-index: 99;      
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+    font-family: 'Advent Pro', sans-serif;  
+}
+.logo{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Advent Pro', sans-serif; 
+    font-weight: 600; 
+}
+.menu{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+}
+.menu li{
+    color: #fff;    
+    margin-left: 35px;
+    font-weight: 400;
+}
+
+.home{
+    width: 100%;
+    height: 94vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10%;
+}
+.home-text{
+    font-family: 'Bebas Neue', cursive;
+    max-width: 40rem;
+}
+.home-text .text-h1{
+    letter-spacing: 2px;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+.home-text p{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    text-decoration: overline;
+}
+.home-text img{ /*IMAGEM SETA*/
+    animation: efeito 0.5s ease-in-out alternate infinite;
+    margin-left: 15rem;
+}
+@keyframes efeito {
+    to {
+        transform: translateY(10px);
+    }
+}
+span{
+    color: yellow;
+}
+
+.home-img img{ /*LOGO RENTOOLS*/   
+    max-height: 50rem;    
+    width: 100%;
+}
+.about{       
+    display: flex; 
+	width: 100%;
+	height: 100vh;
+    background-image: url(../imagens/sobrenos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.about-text{  
+    border-radius: 20px;
+    padding: 2rem 2rem;
+    border: 1px solid whitesmoke;
+    color: #fff;
+	width: 550px;    
+}
+.main{
+	width: 100%;    
+	max-width: 95%;
+	margin: 15rem;
+	display: flex;
+	align-items: center;	
+}
+.about-text h2{	    
+	font-size: 5rem;
+	text-transform: capitalize;
+	margin-bottom: 20px;   
+}
+.about-text p{	
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 25px;
+	margin-bottom: 45px;
+}
+.footer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+.horario{
+    display: flex;
+    width: 50%;
+    height: 100vh;    
+    justify-content: center;
+    align-items: center;   
+}
+.horario h1{    
+    background: rgba(255, 255, 255, 0.1);     
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4vh;
+    font-family: 'Bebas Neue', cursive;    
+    width: 60rem;
+    height: 40rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); 
+    border-radius: 50px;  
+     
+}
+.contato{
+    display: grid;
+    height: 40rem;
+    width: 40rem;   
+    justify-content: center;
+    align-items: center;  
+    
+}
+.mapa{
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3); 
+    width: 40rem;
+    height: 40rem;
+    border-radius: 10%;
+}
+footer{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #393e41;
+    height: 30px;
+    color: #fff;
+}
+footer h6{
+    font-family: 'Bebas Neue', cursive;  
+    margin-left: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.footer{
+    background: #fff;
+}
+
+.services{    
+background: #222;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100vh;
+}
+
+.text-h2{
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: underline 10px solid #fff;
+
+}
+.text-h2 h2{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive; 
+    margin-top: 2vh;     
+    color: #fff;
+    font-size: 5rem;
+    letter-spacing: 1px;    
+}
+.container{    
+    width: 100%;    
+    margin-top: 10rem;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    justify-content: center;    
+    justify-content: space-evenly;    
+}
+.container .box{
+    display: flex;    
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;   
+    box-shadow: -10px 10px 10px rgba(255, 255, 255, 0.2);   
+    justify-content: center;
+    border: 1px solid #fff;  
+    background: rgba(255, 255, 255, 0.1);  
+}
+
+.container .box .conteudo{
+   margin-top: 5rem;
+    text-align: center;
+    color: #fff;
+}
+.conteudo p{
+    margin-top: 10px;
+    font-family: 'Bebas Neue', cursive;  
+    font-size: 28px;
+    font-weight: 100;    
+}
+.conteudo h6{
+    color: red;    
+    font-size: 20px;    
+    margin-top: 10px;    
+}
